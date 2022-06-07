@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dhanush Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!--fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#aboutMe" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#myWork" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="index.html#contact" class="nav__link">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                <strong>Cool Cab</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">An Autonomous e-car</p>
+            <img src="img/coolCab.png" alt="coolcab logo" class="intro_img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>Today, Tesla, Google, Uber, and GM are all trying to create their own self-driving cars that can run on real-world roads. 
+                Many analysts predict that within the next 5 years, we will start to have fully autonomous cars running in our cities, and within 30 years, nearly ALL cars will be fully autonomous. 
+                By using Cool cab we will be able detect and follow lanes, recognize and respond to traffic signs and people on the road in under a week.</p>
+            <img src="img/CoolCab Prototype.png" alt="prototype of cool cab" class="portfolio-item-img">    
+            <p>Cool cab is a Autonomous e-vechile which uses machine learning to drive the e-car.
+                It is used to decreases the man power that we are using in our day to day life.
+                By using our car we can reduce the wages for fuel and for the drivers.
+                We had used python and OpenCV to teach our car to navigate autonomously on a winding single lane road by detecting lane lines and steer accordingly.
+                We had used deep learning techniques such as single shot multi-box object detection and transfer learning to teach our CoolCab to detect various traffic signs and pedestrians on the road. 
+                And then we had teached it to stop at red lights and stop signs, go on green lights, stop to wait for a pedestrian to cross, and change its speed limit according to the posted speed signs.
+            </p>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            
+            <a href="mailto:smartdhanush000@gmail.com" class="footer__link">smartdhanush000@gmail.com</a>
+            <!-- <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Dhanush0014?tab=repositories">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul> -->
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
